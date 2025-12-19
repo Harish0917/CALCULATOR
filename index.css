@@ -1,0 +1,48 @@
+div{
+    width: 20%;
+    display: wrap;
+    margin: 5% auto;
+    border: 0px,solid,rgb(0, 0, 0);
+    margin-top: 100px;
+    margin-left: 35%;
+    border-radius: 10px;
+    background:linear-gradient(30deg,black,rgb(165, 156, 156),black);
+}
+#input{
+    text-align: right;
+    flex-basis: 25%;
+    font-size: 75%;
+    padding: 5%;
+    width: 84%; 
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 0px;
+
+}
+.button{
+    width: 20%;
+    padding:5% ;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius:15px;
+    background:linear-gradient(20deg,rgb(232, 226, 226),rgb(165, 156, 156),rgb(41, 39, 39)); 
+    color: white;
+    border: 0px
+    
+}
+.eval{
+    width:20%;
+    padding: 5%;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius:15px;
+    background:linear-gradient(20deg,rgb(232, 226, 226),rgb(165, 156, 156),rgb(58, 56, 56)); 
+    color: white;
+    border: 10px whitesmoke;
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    text-align: center;
+} 

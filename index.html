@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="div">
+        <input id="input" placeholder="CASIO">
+        <button class="button" id="Delete">DEL</button>
+        <button class="button" id="Clear">AC</button>
+        <button class="button" onclick="DisplayBtnValues('%')">%</button>
+        <button class="button" onclick="DisplayBtnValues('/')">/</button>
+        <button class="button" onclick="DisplayBtnValues('7')">7</button>
+        <button class="button" onclick="DisplayBtnValues('8')">8</button>
+        <button class="button" onclick="DisplayBtnValues('9')">9</button>
+        <button class="button" onclick="DisplayBtnValues('*')">x</button>
+        <button class="button" onclick="DisplayBtnValues('4')">4</button>
+        <button class="button" onclick="DisplayBtnValues('5')">5</button>
+        <button class="button" onclick="DisplayBtnValues('6')">6</button>
+        <button class="button" onclick="DisplayBtnValues('-')">-</button>
+        <button class="button" onclick="DisplayBtnValues('1')">1</button>
+        <button class="button" onclick="DisplayBtnValues('2')">2</button>
+        <button class="button" onclick="DisplayBtnValues('3')">3</button>
+        <button class="button" onclick="DisplayBtnValues('+')">+</button>
+        <button class="button" onclick="DisplayBtnValues('0')">0</button>
+        <button class="button" onclick="DisplayBtnValues('00')">00</button>
+        <button class="button" onclick="DisplayBtnValues('.')">.</button>
+        <button class="eval" id="calculate" class="evaluate">=</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
